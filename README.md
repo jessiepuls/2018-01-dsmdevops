@@ -1,16 +1,17 @@
-# October 2017 PuppetConf
+# January 2018 
 
-The slides from this presentation are available [here](2017-puppetconf.pdf)
+The slides from this presentation are available [here](2018-dsmdevops.pdf)
 
 ## Prerequisites
 
-* Ruby: I'd recommend using rvm (http://rvm.io/) The version of ruby I've been running is 2.3.4p301
+* Ruby: I'd recommend using rvm (http://rvm.io/) The version of ruby I've been running is 2.3.4
 * Bundler: Once you've installed ruby then you run `gem install bundler`
 
 ## Terraform "stuff"
 
 If you have an AWS key standing up an environment is as simple as running the following commands inside of the environment directory
 
+    terraform init    # to initialize the terraform environment
     terraform plan    # to verify the changes that will be made
     terraform apply   # to apply those changes
     terraform destroy # to tear the environment down
